@@ -7,6 +7,6 @@ node("Dan"){
     }
     stage("execute"){
         bat "dir"
-        bat "python disk_resizer.py.py"
+        bat "python disk_resizer.py"
     }
 }
